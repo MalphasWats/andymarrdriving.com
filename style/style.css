@@ -1,0 +1,184 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	width:900px;
+	margin: 0 auto;
+	
+	padding: 12px 0 48px 0;
+	
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div#header p:first-child
+{
+	text-align:right;
+	font-size:14pt;
+	
+	color:#999999;
+}
+
+div#header p:first-child span
+{
+	color:#ed2124;
+}
+
+div#header ul
+{
+	float:right;
+	margin-top:12px;
+	font-size: 10pt;
+	list-style-type:none;
+}
+
+div#header ul li
+{
+	float:left;
+}
+
+div#header ul li a
+{
+	color:#999999;
+	text-decoration:none;
+	display:inline-block;
+	
+	padding: 2px 8px;
+	margin: 0 6px;
+}
+
+div#header ul li a:hover
+{
+	color:#666666;
+	border-bottom: 3px solid #ed2124;
+}
+
+
+div#content
+{
+	overflow:auto;
+}
+
+div#content h2
+{
+	font-size:16pt;
+	margin-top:24px;
+}
+
+div#content h2 span
+{
+	color:#ed2124;
+}
+
+
+ul#services
+{
+	margin-top:12px;
+	overflow:auto;
+}
+
+ul#services li
+{
+	display:inline-block;
+	width:30%; min-height:425px;
+	margin-right:3%;
+	
+	float:left;
+	
+	border:1px solid #cccccc;
+	border-radius:6px;
+	
+	color:#444444;
+}
+ul#services li:last-child
+{
+	margin-right:0;
+}
+
+ul#services li img
+{
+	width:100%;
+	
+}
+
+ul#services li h3
+{
+	margin-top:16px;
+}
+
+ul#services li p
+{
+	font-size:10pt;
+}
+
+ul#services li h3, ul#services li p
+{
+		padding:10px 24px;
+		font-weight:normal;
+}
+
+ul#services li a
+{
+	display:inline-block;
+	margin:24px;
+	
+	color:#0b5996;
+	background-color:#dbe9f3;
+	
+	border:1px solid #0b5996;
+	text-decoration:none;
+	
+	font-size:10pt;
+	
+	padding:4px 12px;
+	border-radius:2px;
+}
+
+ul#services li a:hover
+{
+	background-color:#438ac2;
+	color:white;
+}
+
+
+
+
+ul#testimonials
+{
+	margin-top:24px;
+	
+}
+
+ul#testimonials li
+{
+	display:inline-block;
+	width:22%;
+	margin-right:3%;
+	
+	float:left;
+	
+	color:#444444;
+	
+	font-size:10pt;
+	text-align:center;
+}
+ul#testimonials li:last-child
+{
+	margin-right:0;
+}
+
+ul#testimonials p
+{
+	padding:18px;
+	min-height:150px;
+	
+	border:1px solid #cccccc;
+	border-radius:6px;
+	text-align:left;
+	
+	margin-bottom:6px;
+}
