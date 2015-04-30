@@ -74,6 +74,41 @@ div#content h2 span
 	color:#ed2124;
 }
 
+div#content p
+{
+	margin:16px 0;
+	color:#444444;
+}
+
+div#content #left_col, div#content #right_col
+{
+	float:left;
+}
+
+div#content #left_col
+{
+	width:580px;
+	overflow:auto;
+}
+
+div#content #right_col
+{
+	width:280px;
+	padding:20px;
+	overflow:auto;
+	
+	font-size:10pt;
+}
+
+div#content #right_col ul
+{
+	list-style-type:none;
+}
+
+div#content #right_col ul li
+{
+	margin-top:6px;
+}
 
 ul#services
 {
