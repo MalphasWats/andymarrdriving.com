@@ -91,6 +91,11 @@ div#content #left_col
 	overflow:auto;
 }
 
+div#content #left_col ul
+{
+	list-style-position:inside;
+}
+
 div#content #right_col
 {
 	width:280px;
