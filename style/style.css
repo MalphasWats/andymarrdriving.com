@@ -103,6 +103,7 @@ div#content #right_col
 div#content #right_col ul
 {
 	list-style-type:none;
+	margin-bottom:24px;
 }
 
 div#content #right_col ul li
