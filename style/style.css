@@ -218,3 +218,39 @@ ul#testimonials p
 	
 	margin-bottom:6px;
 }
+
+
+ul#testimonials_main
+{
+	margin-top:24px;
+	
+}
+
+ul#testimonials_main li
+{
+	/*display:inline-block;
+	width:22%;
+	margin-right:3%;
+	
+	float:left;*/
+	
+	color:#444444;
+	
+	font-size:10pt;
+	/*text-align:center;*/
+}
+ul#testimonials_main li:last-child
+{
+	margin-right:0;
+}
+
+ul#testimonials_main p
+{
+	padding:18px;
+	
+	border:1px solid #cccccc;
+	border-radius:6px;
+	text-align:left;
+	
+	margin-bottom:6px;
+}
